@@ -3,8 +3,10 @@ import banner from '../assets/banner-main.webp'
 import shape1 from '../assets/os-shape1.webp'
 import shape2 from '../assets/os-shape2.webp'
 import shape3 from '../assets/os-shape3.webp'
+import Cards from './Cards'
 const Home = () => {
     return (
+        <>
         <div className='w-full h-screen relative'>
             <div className='absolute right-16 top-10 z-10'>
                 <img src={banner} alt="" srcset="" className='w-' />
@@ -19,6 +21,8 @@ const Home = () => {
                 <img src={shape3} alt="" srcset="" />
             </div>
         </div>
+        <Cards/>
+        </>
     )
 }
 
