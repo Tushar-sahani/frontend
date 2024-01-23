@@ -16,7 +16,7 @@ const Cards = () => {
                         <Link to="/KEC">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white "><span className='hover:text-[#08A9E6]'>Innovation Center</span></h5>
                         </Link>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Kiet Biggest Innovation club</p>
                         <Link to="/KEC" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#08A9E6] bg-[#0E113D] hover:bg-[#08A9E6] hover:text-white focus:ring-4 focus:outline-none transition duration-300 ease-in-out">
                             Read more
                         </Link>
